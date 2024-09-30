@@ -9,7 +9,7 @@ const apiRouter = require("./api/api.router");
 app.use(
   cors({
       origin: [
-          "https://auth-microservies-landing.onrender.com/",
+          "https://auth-microservies-landing.onrender.com",
           "http://localhost:3000"
       ],
   })
